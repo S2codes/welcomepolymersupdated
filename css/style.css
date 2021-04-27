@@ -360,7 +360,7 @@ align-items: center;
     width: 45%;
     height: 450px;
     position: absolute;
-    right: 0%;
+    right: 3%;
     /* z-index: -1; */
     /* left: -1%; */
     bottom: 2%;
@@ -442,7 +442,7 @@ color: white;
     position: absolute;
     /* right: 0%; */
     /* z-index: -1; */
-    left: 0%;
+    left: 3%;
     bottom: 2%;
     /* top: 0%; */
     display: flex;
@@ -705,7 +705,7 @@ footer p{
         padding: 5px;
     }
     .produdctBx h2{
-        width: 65%;
+        width: 50%;
     }
     /* .container-1{
         flex-direction: column;
@@ -741,15 +741,23 @@ footer p{
     width: 50%;
     /* bottom: -5%; */
     top: 40%;
-    right: 0px;
+    right: 3%;
     justify-content: center;
     }
     .para-card-1{
         height: 80px;
         font-size: 2rem;
         margin:  5px 0;
-    }
+        /* width: 88%; */
 
+    }
+    .container-1 .all-para .para-card-1{
+        width: 88%;
+    }
+    .container-1 .all-para .para-card-1 p {
+        font-size: 1.5rem;
+        padding: 2px;
+    }
     /* .container-2  esponsive*/
     
     .container-2 .img-box{
@@ -777,9 +785,16 @@ footer p{
         width: 50%;
         /* bottom: -5%; */
         top: 32%;
-        right: 0px;
+        right: 3%;
+
     }
-    
+    .container-1 .all-para .para-card-1{
+        width: 88%;
+    }
+    .container-2 .all-para .para-card-1 p {
+        font-size: 1.5rem;
+        padding: 2px;
+    }
 
     
     .container-2 .img-box .product-title-2{
@@ -825,13 +840,41 @@ footer p{
             width: 70%;
             margin: 0 auto;
         } */
+
+  .container-1 .img-box .product-title-1 {
+    right: 3%;
+    width: 61%;
+    padding: 0px;
+    font-size: 1.8rem;
+    top: 13%;
+ }
+
+  .container-2 .img-box .product-title-2 {
+    left: 3%;
+    width: 57%;
+    padding: 0px;
+    font-size: 1.8rem;
+    top: 13%;
+ }
+ .container-1 .all-para {
+     width: 57%;
+ }
+ .container-1 .all-para .para-card-1 {
+    width: 100%;
+ }
+ .container-2 .all-para {
+     width: 57%;
+ }
+ .container-2 .all-para .para-card-1 {
+    width: 100%;
+ }
     .youtube-frame{
         width: 100%;
         height: 350px;
         object-fit: cover;
     }
     .cnt-btn button{
-        height: 50px;
+        height: 57px;
         width:200px;
         border: none;
     }
@@ -846,7 +889,7 @@ footer p{
     }
     .produdctBx h2{
         letter-spacing: 2px;
-    width: 90%;
+    width: 72%;
     }
     .aboutBx p{
         text-align: center;
@@ -948,13 +991,14 @@ footer p{
         padding: 2px;
         top: 28%;
         right: 6%;
+        width: 50%;
     }
     .container-2 .img-box .product-title-2{
         font-size: 1.5rem;
         padding: 2px;
-        left: 7%;
+        left: 6%;
         top: 28%;
-        
+        width: 50%;
     }
     .container-1 .img-box img {
         width: 51%;
@@ -965,16 +1009,16 @@ footer p{
     
 
     .container-1 .all-para{
-        top: 41%;
-        width: 54%;
+        top: 45%;
+        width: 48%;
     }    
     .container-1 .all-para .para-card-1 p{
         font-size: 1.3rem;
     }
     .container-2 .all-para{
         /* border: 2px solid rgb(246, 250, 14); */
-        top: 41%;
-        width: 54%;
+        top: 45%;
+        width: 48%;
     }    
     .container- .all-para .para-card-1 p{
         font-size: 1.3rem;
@@ -1037,7 +1081,7 @@ footer p{
     }
     .container-2 .all-para{
         /* border: 2px solid rgb(246, 250, 14); */
-        top: 50%;
+        top: 65%;
         width: 70%;
         height: 250px;
 
