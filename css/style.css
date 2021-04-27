@@ -880,22 +880,23 @@ footer p{
     }
     .aboutBx h1{
         letter-spacing: 2px;
-        width: 90%;
+        width: 46%;
+        font-size: 1.8rem;
     }
     .aboutBx p{
         width: 100%;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         padding: 2px;
+        text-align: center;
+        width: 90%;
     }
     .produdctBx h2{
         letter-spacing: 2px;
-    width: 72%;
+        width: 70%;
+        font-size: 1.8rem;
+
     }
-    .aboutBx p{
-        text-align: center;
-        width: 100%;
-    }
-    
+  
     
 
     footer .foot-para {
@@ -925,11 +926,11 @@ footer p{
 @media screen and (max-width: 520px) {
 
     .container-1 .all-para .para-card-1 p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 2px;
     }
     .container-2 .all-para .para-card-1 p{
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 2px;
     }
     
@@ -987,14 +988,14 @@ footer p{
         margin-bottom: 0px;
     }
     .container-1 .img-box .product-title-1{
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 2px;
         top: 28%;
         right: 6%;
         width: 50%;
     }
     .container-2 .img-box .product-title-2{
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding: 2px;
         left: 6%;
         top: 28%;
@@ -1013,7 +1014,7 @@ footer p{
         width: 48%;
     }    
     .container-1 .all-para .para-card-1 p{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .container-2 .all-para{
         /* border: 2px solid rgb(246, 250, 14); */
@@ -1021,28 +1022,31 @@ footer p{
         width: 48%;
     }    
     .container- .all-para .para-card-1 p{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     
 
 
 .endBx{
-    height: 80vh;
+    height: 60vh;
     padding-bottom: 5px;
 }
 .endBx h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
-    margin: 5px 11px;
+    margin: 5px 3px;
+    text-align: center;
 }
 .endBx .cnt-btn-1 button {
-    margin: 3px 5px;
+    margin: 3px auto;
     height: 45px;
     width: 178px;
+
 }
 .endBx p {
-    font-size: 1.5rem;
-    margin: 40px 6px;
+    font-size: 1.2rem;
+    margin: 10px 6px;
+    text-align: center;
 }
 }
 
