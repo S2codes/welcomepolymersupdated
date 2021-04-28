@@ -859,13 +859,6 @@ footer p{
         width: 87%;
     }
 
-
-
-
-
-
-
-
     /* footer social  */
     .footer-social ul li a i{
         margin: 3px auto;
@@ -874,103 +867,9 @@ footer p{
     }
   }
   
+  /* 520px responsive  */
 
-
-  /* 400px responsive  */
-  @media screen and (max-width: 400px) {
-        /* .logo img{
-            width: 70%;
-            margin: 0 auto;
-        } */
-
-  .container-1 .img-box .product-title-1 {
-    right: 3%;
-    width: 61%;
-    padding: 0px;
-    font-size: 1.8rem;
-    top: 13%;
- }
-
-  .container-2 .img-box .product-title-2 {
-    left: 3%;
-    width: 57%;
-    padding: 0px;
-    font-size: 1.8rem;
-    top: 13%;
- }
- .container-1 .all-para {
-     width: 57%;
- }
- .container-1 .all-para .para-card-1 {
-    width: 100%;
- }
- .container-2 .all-para {
-     width: 57%;
- }
- .container-2 .all-para .para-card-1 {
-    width: 100%;
- }
-    .youtube-frame{
-        width: 100%;
-        height: 350px;
-        object-fit: cover;
-    }
-    .cnt-btn button{
-        height: 57px;
-        width:200px;
-        border: none;
-    }
-    .aboutBx h1{
-        letter-spacing: 2px;
-        width: 53%;
-        font-size: 1.5rem;
-        border: 2px solid red;
-    }
-    .aboutBx p{
-        width: 100%;
-        font-size: 1.3rem;
-        padding: 2px;
-        text-align: center;
-        width: 90%;
-    }
-    .produdctBx h2{
-        margin-top: 25px;
-        letter-spacing: 2px;
-        width: 70%;
-        font-size: 1.8rem;
-
-    }
-    .item-1, .item-2, .item-3 {
-        top: 7%;
-        font-size: 1.5rem;
-    }
-    
-
-    footer .foot-para {
-        width: 97%;
-        font-size: 1.2rem;
-        margin: 5px auto;
-    }
-    .endBx{
-        height: 80vh;
-        padding-bottom: 5px;
-    }
-    .endBx h4 {
-        font-size: 2rem;
-        color: white;
-        margin: 5px 11px;
-    }
-    .endBx .cnt-btn-1 button {
-        margin: 3px 5px;
-        height: 45px;
-        width: 178px;
-    }
-
-}
-
-
-
-@media screen and (max-width: 520px) {
+  @media screen and (max-width: 520px) {
 
     .container-1 .all-para .para-card-1 p{
     font-size: 1rem;
@@ -1027,6 +926,113 @@ footer p{
         width: 95%;
     }
 }
+
+  /* 400px responsive  */
+  @media screen and (max-width: 400px) {
+        /* .logo img{
+            width: 70%;
+            margin: 0 auto;
+        } */
+
+  .container-1 .img-box .product-title-1 {
+    right: 3%;
+    width: 48%;
+    padding: 0px;
+    font-size: 1.3rem;
+    top: 13%;
+ }
+
+  .container-2 .img-box .product-title-2 {
+    left: 3%;
+    width: 48%;
+    padding: 0px;
+    font-size: 1.3rem;
+    top: 13%;
+ }
+ .container-1 .all-para {
+     width: 45%;
+ }
+ .container-1 .all-para .para-card-1 {
+    width: 100%;
+ }
+ .container-2 .all-para {
+     width: 45%;
+ }
+ .container-2 .all-para .para-card-1 {
+    width: 100%;
+ }
+    .youtube-frame{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+    .cnt-btn button{
+        height: 57px;
+        width:200px;
+        border: none;
+    }
+    .aboutBx h1{
+        letter-spacing: 2px;
+        width: 53%;
+        font-size: 1.5rem;
+        /* border: 2px solid red; */
+    }
+    .aboutBx p{
+        width: 100%;
+        font-size: 1rem;
+        padding: 2px;
+        text-align: center;
+        width: 90%;
+    }
+    .produdctBx h2{
+        margin-top: 25px;
+        letter-spacing: 2px;
+        width: 70%;
+        font-size: 1.8rem;
+
+    }
+    .videoBx .textBx {
+        height: 70%;
+        width: 64%;
+    }
+    .item-1, .item-2, .item-3 {
+        top: 7%;
+        font-size: 1.3rem;
+    }
+    
+
+    footer .foot-para {
+        width: 97%;
+        font-size: 1.2rem;
+        margin: 5px auto;
+    }
+    .endBx{
+        height: 400px;
+        padding-bottom: 5px;
+    }
+    .endBx h4 {
+        font-size: 1.5rem;
+        color: white;
+        margin: 5px 11px;
+        text-align: center;
+    }
+    .endBx p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .endBx .cnt-btn-1 button {
+        margin: 3px 5px;
+        height: 45px;
+        width: 178px;
+        margin: auto;
+    }
+    .endBx .cnt-btn-1 button a span{
+        font-size: 1.3rem;
+    }
+}
+
+
+
 @media screen and (max-width: 380px) {
     .videoBx .textBx {
         height: 100%;
@@ -1094,7 +1100,7 @@ footer p{
         letter-spacing: 2px;
         width: 60%;
         font-size: 1.5rem;
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
 
     }
 
