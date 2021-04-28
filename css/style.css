@@ -1099,6 +1099,33 @@ footer p{
     text-align: center;
 }
 }
+@media screen and (max-width: 360px){
+.aboutBx p {
+    width: 100%;
+    font-size: 1rem;
+    padding: 2px;
+    text-align: center;
+    width: 90%;
+}
+.container-1 .img-box .product-title-1 {
+
+    width: 47%;
+}
+.container-2 .img-box .product-title-2 {
+
+    width: 46%;
+}
+.container-1 .all-para {
+    /* border: 2px solid rgb(246, 250, 14); */
+    top: 40%;
+}
+.container-2 .all-para {
+    /* border: 2px solid rgb(246, 250, 14); */
+    top: 40%;
+}
+
+}
+
 
 
 @media screen and (max-width: 300px) {
