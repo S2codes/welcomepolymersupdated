@@ -922,8 +922,9 @@ footer p{
     }
     .aboutBx h1{
         letter-spacing: 2px;
-        width: 46%;
-        font-size: 1.8rem;
+        width: 53%;
+        font-size: 1.5rem;
+        border: 2px solid red;
     }
     .aboutBx p{
         width: 100%;
@@ -933,12 +934,16 @@ footer p{
         width: 90%;
     }
     .produdctBx h2{
+        margin-top: 25px;
         letter-spacing: 2px;
         width: 70%;
         font-size: 1.8rem;
 
     }
-  
+    .item-1, .item-2, .item-3 {
+        top: 7%;
+        font-size: 1.5rem;
+    }
     
 
     footer .foot-para {
@@ -1033,6 +1038,7 @@ footer p{
 
 
     .produdctBx h2 {
+        margin-top: 25px;
         letter-spacing: 2px;
         width: 70%;
         font-size: 1.5rem;
@@ -1088,6 +1094,8 @@ footer p{
         letter-spacing: 2px;
         width: 60%;
         font-size: 1.5rem;
+        border: 2px solid yellow;
+
     }
 
 .endBx{
