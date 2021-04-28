@@ -1011,11 +1011,11 @@ footer p{
 }
 @media screen and (max-width: 380px) {
     .videoBx .textBx {
-        height: 85%;
+        height: 100%;
         width: 92%;
     }
     .item-1, .item-2, .item-3{
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
 
 
@@ -1073,7 +1073,7 @@ footer p{
     
     .aboutBx h1 {
         letter-spacing: 2px;
-        width: 47%;
+        width: 60%;
         font-size: 1.5rem;
     }
 
@@ -1108,15 +1108,12 @@ footer p{
         width: 100%;
     }
     .item-1, .item-2, .item-3{
-        top: 50%;
+        top: 15%;
         font-size: 1.2rem;
         width: 60%;
     }
 
-    .aboutBx h1 {
-        letter-spacing: 2px;
-        width: 48%;
-    }
+
     .aboutBx p {
         font-size: 1rem;
       
@@ -1173,7 +1170,7 @@ footer p{
     }
     .aboutBx h1 {
         letter-spacing: 2px;
-        width: 49%;
+        width: 68%;
         font-size: 1.5rem;
     }
 
