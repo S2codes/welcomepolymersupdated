@@ -1113,26 +1113,42 @@ footer p{
         width: 60%;
     }
 
-
+    .aboutBx h1 {
+        letter-spacing: 2px;
+        width: 48%;
+    }
+    .aboutBx p {
+        font-size: 1rem;
+      
+    }
     .container-1{
         margin-bottom: 0px;
     }
     .container-2{
         margin-bottom: 0px;
     }
-
+    .container-1 .img-box {
+        height: 400px;
+    }
+    .container-2 .img-box {
+        height: 400px;
+    }
     .container-1 .img-box .product-title-1 {
         font-size: 1.1rem;
+        width: 44%;
     }
-    .container-2 .img-box .product-title-1 {
+    .container-2 .img-box .product-title-2 {
         font-size: 1.1rem;
+        width: 44%;
+
     }
 
     .container-1 .all-para{
         /* border: 2px solid rgb(246, 250, 14); */
-        top: 50%;
-        width: 70%;
+        top: 55%;
+        width: 50%;
         height: 250px;
+        right: 9%;
     }    
     .container-1 .all-para .para-card-1, .container-2 .all-para .para-card-1
     {
@@ -1147,8 +1163,9 @@ footer p{
     .container-2 .all-para{
         /* border: 2px solid rgb(246, 250, 14); */
         top: 65%;
-        width: 70%;
+        width: 50%;
         height: 250px;
+        left: 9%;
 
     }    
     .container-2 .all-para .para-card-1 p{
@@ -1160,6 +1177,10 @@ footer p{
         font-size: 1.5rem;
     }
 
+    .endBx .cnt-btn-1 button {
+        margin: 31px auto;
+        
+    }
 
 
     footer .foot-para{
