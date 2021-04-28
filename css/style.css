@@ -178,15 +178,15 @@ nav{
     border: 3px solid grey;
 }
 .cnt-btn{
-    margin: 13px;
+    margin: 3px 0;
 }
 .cnt-btn button{
-    margin: 17px auto;
+    margin: 11px auto;
     background-color: #3d83b6;
     color: white;
     padding: 9px;
     height: 70px;
-    width:350px;
+    width:300px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -199,7 +199,7 @@ nav{
     text-decoration: none;
 }
 .cnt-btn  button  a span{
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: white;
     transition: 2s;
 }
@@ -218,8 +218,10 @@ nav{
     font-size: 2.5rem;
     text-transform: uppercase;
     letter-spacing: 9px;
-    margin: 9px auto;
-    width: 37%;
+    margin: 0 auto;
+    margin-top: 23px;
+
+    width: 30%;
     color: #3d83b6;
     border-bottom: 2px solid #3d83b6;
 }
@@ -495,8 +497,8 @@ color: white;
 
 
 .endBx{
-    background-color: #050141;
-    height: 85vh;
+    background-color: #0f344e;
+    height: 610px;
     /* padding: 19px; */
     margin-top: 100px;
     position: relative;
@@ -838,9 +840,20 @@ footer p{
 
     .endBx{
         /* border: 2px solid white; */
-        background-color: #050141;
-        height: 90vh;
+        /* background-color: #050141; */
+        height: 500px;
         margin-top: 100px;
+    }
+    .endBx h4
+    {
+        font-size: 2rem;
+    }
+    .endBx p
+    {
+        font-size: 1.5rem;
+    }
+    .endBx .cnt-btn-1 button {
+        margin: 20px 28px;
     }
     footer .foot-para {
         width: 87%;
@@ -1001,7 +1014,7 @@ footer p{
     
     .endBx{
         /* border: 2px solid white; */
-        background-color: #050141;
+        /* background-color: #050141; */
         height: 85vh;
         margin-top: 100px;
     }
@@ -1078,7 +1091,7 @@ footer p{
     }
 
 .endBx{
-    height: 60vh;
+    height: 64vh;
     padding-bottom: 5px;
 }
 .endBx h4 {
@@ -1129,20 +1142,44 @@ footer p{
 
 
 @media screen and (max-width: 300px) {
+    /* social top */
+    .social ul li a i {
+        /* margin: 3px 12px; */
+        font-size: 2rem;
+    }
+    /* social bottom */
+    .footer-social ul li a i{
+        font-size: 2rem;
+
+    }
+    /* youtube  */
+    .youtube-frame {
+        width: 95%;
+        height: 192px;
+    }
+
+    .cnt-btn button{
+        height: 51px;
+        width: 178px;
+        border: none;
+    }
+    .cnt-btn button a span{
+        font-size: 1.3rem;
+    }
 
     .videoBx .textBx {
         height: 100%;
         width: 100%;
     }
     .item-1, .item-2, .item-3{
-        top: 15%;
-        font-size: 1.2rem;
+        top: 10%;
+        font-size: 1rem;
         width: 60%;
     }
 
 
     .aboutBx p {
-        font-size: 1rem;
+        font-size: 0.7rem;
       
     }
     .container-1{
@@ -1152,10 +1189,16 @@ footer p{
         margin-bottom: 0px;
     }
     .container-1 .img-box {
-        height: 400px;
+        height: 260px;
+    }
+    .container-1 .img-box img {
+        width: 45%;
     }
     .container-2 .img-box {
-        height: 400px;
+        height: 260px;
+    }
+    .container-2 .img-box img {
+        width: 45%;
     }
     .container-1 .img-box .product-title-1 {
         font-size: 1.1rem;
@@ -1168,47 +1211,63 @@ footer p{
     }
 
     .container-1 .all-para{
-        /* border: 2px solid rgb(246, 250, 14); */
-        top: 55%;
+        top: 40%;
         width: 50%;
-        height: 250px;
-        right: 9%;
+        height: 237px;
+         right: 3%;
     }    
     .container-1 .all-para .para-card-1, .container-2 .all-para .para-card-1
     {
-        height: 17%;
+        height: 40px;
         justify-content: center;
         margin: 2px;
     }
     .container-1 .all-para .para-card-1 p{
-        font-size: 1rem;
+        font-size: 0.7rem;
 
     }
     .container-2 .all-para{
-        /* border: 2px solid rgb(246, 250, 14); */
-        top: 65%;
+        top: 51%;
         width: 50%;
-        height: 250px;
-        left: 9%;
+        height: 189px;
+        left: 3%;
+        
 
     }    
     .container-2 .all-para .para-card-1 p{
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
     .aboutBx h1 {
-        letter-spacing: 2px;
-        width: 68%;
-        font-size: 1.5rem;
+        letter-spacing: 3px;
+        width: 60%;
+        font-size: 1.3rem;
     }
-
+    .produdctBx h2 {
+        letter-spacing: 3px;
+        width: 71%;
+        font-size: 1.3rem;
+    }
+    .endBx {
+        height: 71vh;
+    }
+    .endBx h4 {
+        font-size: 1.3rem;
+    }
+    .endBx p {
+        font-size: 1rem;
+    }
     .endBx .cnt-btn-1 button {
         margin: 31px auto;
         
     }
-
-
+    .foot-contact ul li a {
+        font-size: 1rem;
+    }
+    .endBx .cnt-btn-1 button a span {
+        font-size: 1.3rem;
+    }
     footer .foot-para{
-        font-size: 1.2rem;
-        width: 98%;
+        font-size: 1rem;
+        width: 95%;
     }
 }
