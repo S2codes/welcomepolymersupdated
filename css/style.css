@@ -229,62 +229,81 @@ nav{
     font-size: 1.8rem;
     margin:11px auto;
     padding: 9px;
+    color: #656565;
 }
 .videoBx{
     position: relative;
 }
 .videoBx video{
     /* background: url("../images/2.mp4"); */
-border:2px solid rgb(45, 11, 168);
+/* border:2px solid rgb(45, 11, 168); */
 display: flex;
 justify-content: center;
 align-items: center;
 
 }
 .videoBx .textBx{
-    border: 2px solid greenyellow;
-    height: 50%;
-    width: 65%;
+    /* background-color: rgba(128, 128, 128, 0.158); */
+    /* border: 2px solid greenyellow; */
+    height: 35%;
+    width: 45%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    overflow: hidden;
+
 }
-.videoBx .textBx::before{
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100px;
-    background: red;
-    border: 2px solid red;
-    width: 90%;
-    /* z-index: -1; */
-    
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+    /* border: 2px solid red; */
+    display: block;
+	top: 30%;
+    width: 60%;
+    margin: auto;
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+     text-align: center;
+    display: flex;
+    align-items: center;
+
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
 }
-.videoBx .textBx::before{
-    content: " ";
-    position: absolute;
-    top: 5%;
-    left: 0;
-    height: 100px;
-    background: rgb(223, 20, 20);
-    border: 2px solid red;
-    width: 90%;
-    z-index: 3;
-    
+
+.item-1{
+	animation-name: anim-1;
 }
-.videoBx .textBx::after{
-    content: " ";
-    position: absolute;
-    top: 10%;
-    left: 0;
-    height: 100px;
-    background: rgb(187, 221, 35)(110, 96, 96);
-    border: 2px solid rgb(251, 255, 0);
-    width: 90%;
-    z-index: 4;
-    
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 20%; opacity: 1; }
+  33.33%, 100% { left: 100%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 20%; opacity: 1; }
+  66.66%, 100% { left: 100%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 20%; opacity: 1; }
+  100% { left: 100%; opacity: 0; }
 }
 
 
@@ -704,6 +723,16 @@ footer p{
         font-size: 1.6rem;
         padding: 5px;
     }
+    .videoBx .textBx {
+        height: 39%;
+        width: 87%;
+    }
+    .item-1, .item-2, .item-3{
+        font-size: 2rem;
+    }
+
+
+
     .produdctBx h2{
         width: 50%;
     }
@@ -981,11 +1010,28 @@ footer p{
     }
 }
 @media screen and (max-width: 380px) {
+    .videoBx .textBx {
+        height: 85%;
+        width: 92%;
+    }
+    .item-1, .item-2, .item-3{
+        font-size: 1.7rem;
+    }
+
+
+    .produdctBx h2 {
+        letter-spacing: 2px;
+        width: 70%;
+        font-size: 1.5rem;
+    }
     .container-1{
         margin-bottom: 0px;
+        /* border: 2px solid red; */
     }
     .container-2{
         margin-bottom: 0px;
+        /* border: 2px solid greenyellow; */
+
     }
     .container-1 .img-box .product-title-1{
         font-size: 1rem;
@@ -1025,7 +1071,11 @@ footer p{
         font-size: 1rem;
     }
     
-
+    .aboutBx h1 {
+        letter-spacing: 2px;
+        width: 47%;
+        font-size: 1.5rem;
+    }
 
 .endBx{
     height: 60vh;
@@ -1052,6 +1102,17 @@ footer p{
 
 
 @media screen and (max-width: 300px) {
+
+    .videoBx .textBx {
+        height: 100%;
+        width: 100%;
+    }
+    .item-1, .item-2, .item-3{
+        top: 50%;
+        font-size: 1.2rem;
+        width: 60%;
+    }
+
 
     .container-1{
         margin-bottom: 0px;
@@ -1093,6 +1154,13 @@ footer p{
     .container-2 .all-para .para-card-1 p{
         font-size: 1rem;
     }
+    .aboutBx h1 {
+        letter-spacing: 2px;
+        width: 49%;
+        font-size: 1.5rem;
+    }
+
+
 
     footer .foot-para{
         font-size: 1.2rem;

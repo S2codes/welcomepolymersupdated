@@ -19,6 +19,8 @@
     text-align: center;
     width: 60%;
     margin: 5px auto;
+    color: #656565;
+    
 }
 .fromBx{
     /* border: 2px solid black; */
@@ -101,10 +103,13 @@
 
 @media screen and (max-width: 450px) {
     .from-title{
-        width: 87%;
+        width: 78%;
+        font-size: 1.5rem;
+        letter-spacing: 0;
     }    
     .form-para{
         width: 95%;
+        font-size: 1.3rem;
     }
     .fromBx form{
         /* border: 2px solid rgb(204, 14, 14); */
