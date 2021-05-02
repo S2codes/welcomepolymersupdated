@@ -104,6 +104,9 @@ nav{
     list-style: none;
     
 }
+.dropdown-content ul a li{
+    list-style: none;
+}
 .dropdown-content a:hover {
   background-color: #ddd;
   color: black;
