@@ -151,14 +151,14 @@ color: black;
     .fwBx .product-container{
         /* border: 5px solid red; */
         display: flex;
-        height: 350px;
-        margin: 11px 0;
+        height: 325px;
+        margin: 7px 0;
     }
     .fwBx h2{
         font-size: 1.5rem;
     }
     .fwBx .product-container .fw-para{
-        width: 60%;
+        width: 55%;
         /* border:2px solid blue; */
         font-size: 0.7rem;
         padding: 0px;
@@ -169,13 +169,14 @@ color: black;
         margin-left: 20px;
     }
     .fwBx .product-container .prImg{
-        width: 40%;
+        width: 45%;
+        height: 90%;
         /* border:2px solid rgb(15, 245, 187); */
      }
     .fwBx .product-container .prImg img{
-        height: 50%;
+        height: 100%;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
       
     }
 
