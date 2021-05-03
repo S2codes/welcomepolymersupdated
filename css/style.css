@@ -218,7 +218,7 @@ nav{
 
 .aboutBx h1{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-transform: uppercase;
     letter-spacing: 9px;
     margin: 0 auto;
@@ -231,7 +231,7 @@ nav{
 .aboutBx p{
     text-align: center;
     width: 90%;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     margin:11px auto;
     padding: 9px;
     color: #656565;
@@ -245,13 +245,12 @@ nav{
 display: flex;
 justify-content: center;
 align-items: center;
-
 }
 .videoBx .textBx{
     /* background-color: rgba(128, 128, 128, 0.158); */
     /* border: 2px solid greenyellow; */
-    height: 35%;
-    width: 45%;
+    height: 55%;
+    width: 55%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -325,7 +324,7 @@ align-items: center;
 }
 .produdctBx h2{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-transform: uppercase;
     letter-spacing: 7px;
     margin: 9px auto;
@@ -371,7 +370,7 @@ align-items: center;
     background-color: white;
     /* margin: 11px; */
     padding: 9px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     box-shadow: -2px 2px 7px black;
     width: 39%;
@@ -416,7 +415,7 @@ align-items: center;
     display: flex;
 }
 .container-1 .all-para .para-card-1 p{
-font-size: 2rem;
+font-size: 1.4rem;
 padding: 13px;
 color: white;
 }
@@ -459,7 +458,7 @@ color: white;
     background-color: white;
     /* margin: 11px; */
     padding: 9px;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
     box-shadow: 2px 2px 7px black;
     width: 39%;
@@ -496,7 +495,7 @@ color: white;
     display: flex;
 }
 .container-2 .all-para .para-card-1 p{
-font-size: 2rem;
+font-size: 1.3rem;
 padding: 13px;
 color: white;
 }
