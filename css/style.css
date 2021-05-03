@@ -395,6 +395,14 @@ align-items: center;
     flex-direction: column;
     /* background-color: yellowgreen; */
 }
+.container-1 .all-para a{
+    /* border: 2px solid red; */
+    text-decoration: none;
+}
+.container-2 .all-para a{
+    /* border: 2px solid red; */
+    text-decoration: none;
+}
 .container-1 .all-para .para-card-1{
     /* border: 2px solid black; */
     text-align: center;
