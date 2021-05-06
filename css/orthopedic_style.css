@@ -29,6 +29,7 @@
     font-size: 1.8rem;
     text-decoration: underline;
     /* line-height: 5px; */
+    margin-left: 19px;
 }
  .orpBx .product-container .fw-para{
      width: 50%;
@@ -38,6 +39,7 @@
      display: flex;
      align-items: center;
      color: #656565;
+     text-align: center;
  }
  .orpBx .product-container .prImg{
     width: 50%;

@@ -36,6 +36,7 @@ nav{
 .topnav {
   overflow: hidden;
   background-color: #3d83b6;
+  
 }
 
 .topnav a {
@@ -45,7 +46,7 @@ nav{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.6rem;
 }
 
 .active {
@@ -63,7 +64,7 @@ nav{
 }
 
 .dropdown .dropbtn {
-  font-size: 17px;    
+  font-size: 1.6rem;    
   border: none;
   outline: none;
   color: white;
@@ -71,6 +72,7 @@ nav{
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+
 }
 
 .dropdown-content {

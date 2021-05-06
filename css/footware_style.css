@@ -29,6 +29,7 @@
     font-size: 1.8rem;
     text-decoration: underline;
     /* line-height: 5px; */
+    margin-left: 19px;
 }
  .fwBx .product-container .fw-para{
      width: 50%;
@@ -38,6 +39,7 @@
      display: flex;
      align-items: center;
      color: #656565;
+     text-align: center;
  }
  .fwBx .product-container .prImg{
     width: 50%;
@@ -116,7 +118,7 @@ color: black;
     margin: 7px 0;
     color: #656565;
     width: 100%;
-  
+    text-align: center;
   }
 
 
@@ -159,6 +161,7 @@ color: black;
     .fwBx h2{
         font-size: 1.5rem;
         text-align: center;
+        margin-left: 0;
     }
     .fwBx .product-container .fw-para{
         width: 95%;
